@@ -1,0 +1,13 @@
+#!bin/bash
+
+import sys
+total=0
+counter=0
+
+for val in sys.argv[1:]:
+	total = total + float(val)
+	counter = counter + 1
+
+average = total / counter
+
+print(average)
